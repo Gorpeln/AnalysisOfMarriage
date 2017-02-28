@@ -51,7 +51,7 @@
     
     
     _manTextField = [[UITextField alloc]init];
-    _manTextField.placeholder = @"输入男性名字";
+    _manTextField.placeholder = @"输入中文名字 至少两个字";
     [_manTextField setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
     [_manTextField setValue:[UIFont systemFontOfSize:13.0] forKeyPath:@"_placeholderLabel.font"];
     _manTextField.delegate=self;
@@ -83,7 +83,7 @@
     
     
     _womanTextField = [[UITextField alloc]init];
-    _womanTextField.placeholder = @"输入女性名字";
+    _womanTextField.placeholder = @"输入中文名字 至少两个字";
     [_womanTextField setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
     [_womanTextField setValue:[UIFont systemFontOfSize:13.0] forKeyPath:@"_placeholderLabel.font"];
     _womanTextField.delegate=self;
